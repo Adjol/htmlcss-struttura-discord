@@ -1,0 +1,128 @@
+/* stili generali di pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* dimensionamento header*/
+header {
+    height: 70vh;
+}
+/* prima sezione con logo login e link principali */
+#top_nav_bar {
+    background-color: yellow;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* provisorio per bordi */
+#top_nav_bar * {
+    border: 2px dashed black;
+}
+
+/* contiene logo */
+#logo {
+    width: 20%;
+    height: 70%;
+}
+/* contiene link principali */
+.link_li {
+    display: flex;
+    list-style: none;
+    height: 70%;
+}
+/* spazio tra le scritte "link" */
+.link_li li {
+    padding: 0 50px;
+}
+/* login btn style */
+.login {
+    width: 20%;
+    height: 70%;
+}
+
+/* inizio foglio style download page */
+
+.main_functions {
+    background-color: blue;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_discord {
+    height: 80%;
+    width: 50%;
+    background-color: pink;
+    
+}
+
+.server {
+    height: 80vh;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_left {
+    background-color: rgb(87, 87, 247);
+    width: 40%;
+    height: 80%;
+}
+
+.server_description {
+    width: 30%;
+    height: 80%;
+    background-color: pink;
+}
+
+
+.channel {
+    height: 80vh;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_right {
+    width: 30%;
+    height: 80%;
+    background-color: pink;
+}
+.channel_description {
+    background-color: rgb(87, 87, 247);
+    width: 40%;
+    height: 80%;
+}
+
+.fandom {
+    height: 80vh;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fandom_description {
+    width: 30%;
+    height: 80%;
+    background-color: pink;
+}
+
+.tecnology {
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last_img {
+    width: 70%;
+    height: 80%;
+    background-color: rgb(4, 113, 4);
+}
