@@ -23,7 +23,7 @@ header {
 }
 
 /* contiene logo */
-#logo {
+.logo {
     width: 20%;
     height: 70%;
 }
@@ -79,6 +79,9 @@ header {
     width: 30%;
     height: 80%;
     background-color: pink;
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
 }
 
 
@@ -125,4 +128,55 @@ header {
     width: 70%;
     height: 80%;
     background-color: rgb(4, 113, 4);
+}
+
+
+footer {
+    height: 65vh;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer_container {
+    width: 70%;
+    background-color: antiquewhite;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    
+}
+
+.share {
+    height: 100%;
+    background-color: pink;
+    flex-basis: 200px;
+    flex-grow: 2;
+}
+
+.ft_item {
+    height: 100%;
+    flex-basis: 100px;
+    background-color: rgb(16, 203, 16);
+    border: 1px dashed black;
+    flex-grow: 1;
+}
+
+.ft_bottom{
+    background-color: yellow;
+    height: 50px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_btn{
+    height: 100%;
+    width: 120px;
+}
+
+hr{
+    width: 70%;
+    margin: auto;
 }
