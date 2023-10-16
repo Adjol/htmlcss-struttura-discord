@@ -8,41 +8,37 @@
 /* dimensionamento header*/
 header {
     height: 70vh;
+    background-color: aqua;
 }
 /* prima sezione con logo login e link principali */
 #top_nav_bar {
     background-color: yellow;
     height: 15%;
+    width: 70%;
+    margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    border: 1px dashed black;
 }
-/* provisorio per bordi */
-#top_nav_bar * {
-    border: 2px dashed black;
-}
-
-/* contiene logo */
-.logo {
-    width: 20%;
-    height: 70%;
-}
-/* contiene link principali */
 .link_li {
     display: flex;
-    list-style: none;
-    height: 70%;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: space-around;
 }
-/* spazio tra le scritte "link" */
-.link_li li {
-    padding: 0 50px;
+.logo {
+    flex-grow: 1;
 }
-/* login btn style */
 .login {
-    width: 20%;
-    height: 70%;
+    flex-grow: 1;
+    text-align: right;
 }
 
+
+.link_li li {
+    list-style: none;
+}
 /* inizio foglio style download page */
 
 .main_functions {
@@ -80,8 +76,7 @@ header {
     height: 80%;
     background-color: pink;
     text-align: center;
-    font-weight: 600;
-    font-size: larger;
+    
 }
 
 
@@ -141,9 +136,9 @@ footer {
 
 #footer_container {
     width: 70%;
-    background-color: antiquewhite;
     height: 300px;
     display: flex;
+    padding-top: 10px;
     margin: auto;
     
 }
@@ -179,4 +174,5 @@ footer {
 hr{
     width: 70%;
     margin: auto;
+    /* padding: 1px; */
 }
