@@ -50,10 +50,10 @@ header {
 }
 
 .intro_discord {
-    height: 80%;
+    min-height: 80%;
     width: 50%;
     background-color: pink;
-    
+
 }
 
 .server {
@@ -72,11 +72,11 @@ header {
 }
 
 .server_description {
-    width: 30%;
+    width: fit-content;
     height: 80%;
     background-color: pink;
     text-align: center;
-    
+
 }
 
 
@@ -101,7 +101,7 @@ header {
 .fandom {
     height: 80vh;
     background-color: white;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,11 +127,8 @@ header {
 
 
 footer {
-    height: 65vh;
+    min-height: 65vh;
     background-color: darkblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #footer_container {
@@ -140,7 +137,8 @@ footer {
     display: flex;
     padding-top: 10px;
     margin: auto;
-    
+    margin-bottom: 5%;
+
 }
 
 .share {
